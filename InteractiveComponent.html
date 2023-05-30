@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Interactive rating component</title>
+</head>
+<body>
+    <main>
+        <div class="interaction-container">
+            <section>
+                <div class="star">
+                    <img src="./images/icon-star.svg" alt="star"/>
+                </div>
+            </section>
+          
+
+            <section>
+                <div class="rating" id="rating">
+                    <h2>How did we do?</h2>
+                    <p>Please Let us know how we did with your pull request.
+                        All feedback is appreciated to help us improve in our offering!
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div class="rating-list">
+                    <ul class="rating-list-number">
+                        <li><button class="one ratingstyle" >1</button></li>
+                        <li><button class="one ratingstyle">2</button></li>
+                        <li><button class="one ratingstyle">3</button></li>
+                        <li><button class="one ratingstyle">4</button></li>
+                        <li><button class="one ratingstyle">5</button></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div class="submit-btn">
+                   <button id="submit">Submit</button>
+                </div>
+            </section>
+
+
+        </div>
+        <div class="submission-container hidden" >
+            <section>
+                <div class="thank-you">
+                    <img src="./images/illustration-thank-you.svg" alt="star"/>
+                </div>
+            </section>
+            <section id="selected-text">
+                <p id="text">You selected 4 out of 5</p>
+            </section>
+          
+
+            <section>
+                <div class="rating submission-rating" id="rating">
+                    <h2>Thank you!</h2>
+                    <p id="appreciation">We appreciate you taking the time to give a rating. If you ever need more support, 
+                        don't hesistate to get in touch
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div class="submit-btn">
+                   <button id="rate-again">Rate Again</button>
+                </div>
+            </section>
+          
+           
+
+
+
+        </div>
+    </main>
+
+    <script src="Script.js"></script>
+    
+</body>
+</html>
