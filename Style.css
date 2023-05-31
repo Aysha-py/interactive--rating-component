@@ -45,9 +45,9 @@ section{
 }
 .rating-list-number button{
     border: none;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 2rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 2.3rem;
     text-align: center;
    color:hsl(217, 12%, 63%);
    background-color: hsl(216, 12%, 8%);
@@ -76,4 +76,12 @@ text-align: center;
     border-radius: 20px;
     background-color: rgb(37, 37, 37);
 
+}
+@media only screen and (max-width: 375px){
+    .rating-list-number button{
+        border: none;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 1.5rem;
+    }
 }
