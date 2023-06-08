@@ -25,9 +25,19 @@ main{
 .hidden{
     display: none;
 }
+.star img{
+    background-color: hsl(213, 20%, 22%);
+    display: inline-block;
+    padding: 14px;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 1px 1px 5px rgb(29, 28, 28);
+}
 section{
     margin: 20px 0;
 }
+
 .rating p{
     line-height: 1.5;
     margin-top: 10px;
@@ -50,7 +60,10 @@ section{
     border-radius: 2.3rem;
     text-align: center;
    color:hsl(217, 12%, 63%);
-   background-color: hsl(216, 12%, 8%);
+   background-color:hsl(216, 12%, 54%, 0.2);
+}
+.rating-list-number button:hover{
+    background-color: hsl(216, 12%, 54%);
 }
 
 .submit-btn{
@@ -64,6 +77,10 @@ text-align: center;
     border-radius:20px ;
     background-color:hsl(25, 97%, 53%);
     color: #fff;
+}
+.submit-btn button:hover{
+    background-color:#fff;
+    color: hsl(25, 97%, 53%);
 }
 .thank-you,#selected-text,.submission-rating{
     text-align: center;

@@ -15,7 +15,7 @@ for ( const rating of ratings){
     const ratingValue = e.target.innerText;
     for (const rating of ratings){
         if (rating.innerText !== ratingValue) {
-            rating.style.backgroundColor = "grey"
+            rating.style.backgroundColor = "hsl(216, 12%, 54%, 0.2)"
             
         }
         else{
@@ -58,7 +58,7 @@ submit_button.addEventListener("click", (e) => {
   interactionContainer.classList.add("hidden")
 
   for (const rating of ratings) {
-    rating.style.backgroundColor = "black";
+    rating.style.backgroundColor = "hsl(216, 12%, 54%, 0.2)";
   }
 });
 
