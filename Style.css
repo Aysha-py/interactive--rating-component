@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 main{
     width: 80%;
     max-width: 500px;
     margin: auto;  
  
-   
 }
 .interaction-container,.submission-container{
      padding: 20px;
@@ -76,6 +76,17 @@ text-align: center;
     border-radius: 20px;
     background-color: rgb(37, 37, 37);
 
+}
+.reference{
+    text-align:center ;
+    font-size: 10px;
+    color:  black;
+    margin-top: auto;
+  
+
+}
+.reference a{
+    color:  hsl(5, 85%, 63%);
 }
 @media only screen and (max-width: 375px){
     .rating-list-number button{
